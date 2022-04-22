@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+    font-family: 'Jost', 'sans-serif';
+    background: linear-gradient(0deg, rgba(146,228,230,1) 0%, rgba(212,201,177,1) 100%);
+  }
+
+  .card {
+    display: flex;
+    margin-block: 2rem;
+    overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    flex-direction: column;
+    height: 400px;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    border-radius: 1em;
+    /* background: #ECE9E6; */
+  
+  }
+
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  .card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+    
+  .card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+  }
+
+  .cardbtn {
+    width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #097879;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: .2s ease-in;
+    cursor: pointer;
+
+  }
